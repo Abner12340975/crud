@@ -16,6 +16,11 @@ $resultado = mysqli_query($conexao, $sql);
             <input type ="text" name="nome" required>
             <label>Preço:</label>
             <input type ="number" name="preco" required>
+            <label> Categoria:</label>
+            <input type = "text" name = "categoria" required>
+            <label>Quantidade:</label>
+            <input type = "number" name="quantidade">
+            <button type = "submit">Salvar</button>
         </form>
 </body>
 </html>
